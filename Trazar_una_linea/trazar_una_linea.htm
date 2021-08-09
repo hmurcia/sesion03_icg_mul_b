@@ -1,0 +1,20 @@
+<html>
+<!-- Tomado de http://w3.unpocodetodo.info/canvas/line.php -->
+<canvas id="linea1" width="250" height="150">Su navegador no soporta canvas :( </canvas>
+<script>
+  window.onload = function() {
+	var canvas = document.getElementById("linea1");
+		if (canvas && canvas.getContext) {
+		var ctx = canvas.getContext("2d");
+			if (ctx) {
+				ctx.lineWidth = 3;
+				ctx.strokeStyle = "#f00";
+				ctx.beginPath();
+				ctx.moveTo(20, 130);
+				ctx.lineTo(230, 20);
+				ctx.stroke();
+			}
+		}
+  }
+</script>
+</html>

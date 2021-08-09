@@ -1,0 +1,24 @@
+En vista que el próximo lunes es festivo y no habrá clase, el profesor dejará disponible en la plataforma de Classroom un video o un material de lectura para revisar y estudiar y, con base en el mismo, desarrollar una actividad para entregar o publicar en Github a más tardar el próximo jueves 19 de agosto de 2021.
+
+Se vuelven a explicar la diferencias entre formatos de imagen de mapas de bits e imágenes vectorizadas. El profesor presenta un ejemplo de creación de una imagen vectorizada en el sitio https://editor.method.ac/.  Se descargan y se analizan los formatos .png y .svg de la misma imagen creada.
+
+-----------------------------------------------------------
+
+Para subir el trabajo realizado a Github:
+
+1. Tener creado el repositorio remoto (en github.com)
+2. Tener creado el repositorio local (en mi pc)
+3. Agregar por la opción Remote, Add la referencia al repositorio remoto:
+   Name: <nombre escogido repositorio remoto>
+   https://github.com/<nombre usuario github>/<nombre repositorio remoto>.git
+4. En su debido momento los pasos secuenciales: Rescan, Stage Changed, Sign Off, Commit y Push
+
+-----------------------------------------------------------
+
+Quienes tengan inconveniente con NetBeans o Eclipse deben trabajar en el sitio https://www.onlinegdb.com/online_java_compiler
+
+Quienes tengan problema con el github y su manejo desde git local deben solventar dicha situación a más tardar el próximo jueves 19 de agosto de 2021.
+
+El profesor verificará y actualizará los enlaces de los videos de las clases desarrolladas hasta ahora y las que vengan posteriormente.
+
+
