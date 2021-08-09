@@ -66,8 +66,10 @@ public class LinesComponent extends JComponent {
         testFrame.getContentPane().add(comp, BorderLayout.CENTER);
         JPanel buttonsPanel = new JPanel();
         JButton newLineButton = new JButton("New Line");
+        JButton newTriangleButton = new JButton("New Triangle");
         JButton clearButton = new JButton("Clear");
         buttonsPanel.add(newLineButton);
+        buttonsPanel.add(newTriangleButton);
         buttonsPanel.add(clearButton);
         testFrame.getContentPane().add(buttonsPanel, BorderLayout.SOUTH);
         newLineButton.addActionListener(new ActionListener() {
@@ -80,6 +82,20 @@ public class LinesComponent extends JComponent {
                 int y2 = (int) (Math.random()*200);
                 Color randomColor = new Color((float)Math.random(), (float)Math.random(), (float)Math.random());
                 comp.addLine(x1, y1, x2, y2, randomColor);
+            }
+        });
+        newTriangleButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int x1 = (int) (Math.random()*320);
+                int x2 = (int) (Math.random()*320);
+                int y1 = (int) (Math.random()*200);
+                int y2 = (int) (Math.random()*200);
+                
+                Color randomColor = new Color((float)Math.random(), (float)Math.random(), (float)Math.random());
+                comp.addLine(x1, y1, x2, y2, randomColor);
+                
             }
         });
         clearButton.addActionListener(new ActionListener() {
